@@ -1,0 +1,85 @@
+/* Fondo general */
+body {
+    background-color: #3e2723; /* Marrón oscuro */
+    font-family: 'Arial', sans-serif;
+    color: #f5f5f5; /* Blanco cálido */
+    margin: 5;
+    padding: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Contenedor del formulario */
+  .login-container {
+    background-color: #afafaf; /* Blanco */
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Título */
+  .login-container h2 {
+    color: #6d4c41; /* Marrón medio */
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  /* Campos de entrada */
+  .login-container input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #6d4c41;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fafafa; /* Color claro */
+  }
+  
+  /* Botones */
+  .login-container button {
+    width: 48%;
+    padding: 0.75rem;
+    margin: 0.5rem 1%;
+    background-color: #795548; /* Marrón café */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container button:hover {
+    background-color: #5d4037; /* Marrón oscuro */
+  }
+  
+  .login-container button:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Para hacer los botones en un solo renglón */
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input {
+    color: black; /* Cambia el color del texto a negro para mejor visibilidad */
+    background-color: white; /* Asegúrate de que el fondo sea de color claro */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Cambia el color del texto cuando el input está enfocado */
+  input:focus {
+    border-color: #007bff;
+  }
+  
